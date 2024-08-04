@@ -1,0 +1,359 @@
+  <html>
+<head>
+    <title>registration</title>
+<style>
+body{
+background-color:green;
+}
+
+#outer{
+height:1200px;
+width:1000px;
+
+}
+
+
+#nav {
+    list-style: none;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.search-box {
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#slider{
+width:100%;
+height:250px;
+}
+
+#menu{
+height:700px;
+width:100%;
+}
+
+#left{
+height:700px;
+width:700px;
+background-color:white;
+float:left;
+}
+#right{
+height:700px;
+width:300px;
+background-color:#CCCC99;
+float:left;
+}
+#footer{
+height:320px;
+width:998px;
+background:white;
+border:1px solid white;
+display:flex;
+border-radius:50px;
+margin-top:25px;
+}
+
+.box{
+height:280px;
+width:300px;
+margin: 25px auto 25px;
+}
+
+.bt{
+  
+    font-size:25px;
+    color:red;
+}
+
+
+
+.box2{
+    height:280px;
+    width:300px;
+    margin: 25px auto 25px;
+}
+
+.box3{
+    height:280px;
+    width:300px;
+    margin: 25px auto 25px;
+}
+
+.sofa{
+width:100%;
+height:250px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image-box {
+    width: calc(33.33% - 20px);
+    height: 100%;
+    background-color: pink;
+    margin: 0 10px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+#anch{
+    border:2px solid skyblue;
+    background-color:yellow;
+    font-size:20px;
+    color:red;
+    
+}
+#left{
+    font-family: Arial, sans-serif;
+    background-color:gray;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    background-color: #f7f7f7;
+    color: #333333;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-bottom: 1px solid #555555;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.login-link {
+    color: #888888;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #555555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #333333;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<center>
+
+<div id="outer">
+<div id="nav">
+    <div class="navbar">
+        <ul class="nav-links">
+         <li><a href="first.html">Home</a></li>
+          <li><a href="second.html">About</a></li>
+          <li><a href="third.html">Registration</a></li>
+          <li><a href="fourth.html">Login</a></li>
+          <li><a href="five.html">Contact</a></li>
+        </ul>
+        <div class="search-box">
+        <input type="text" placeholder="Search...">
+        </div>
+    </div>
+</div>  
+
+
+<div id="slider">
+<img  src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0005.jpg">
+</div>
+
+<div id="menu">
+<div id="left">
+    <div class="registration-container">
+        <div class="registration-box">
+            <h2>Register</h2>
+            <form>
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            
+        </div>
+    </div>
+</div >
+<div id="right">
+<h2>Sidebar Menu</h2>
+
+    Home
+</br></br>
+    TemplateInfo
+</br></br>
+    Style Demo
+</br></br>
+
+    <h2>Sponsors</h2>
+    
+    Lorem ipsum dolor
+</br></br>
+    Donec libero. Suspendisse bibendum
+</br></br>
+    Dui pede condimentum
+
+</div>
+</div>
+
+<div id="footer">
+    <div class="box">
+        <div class="bt">
+            <h4>Image Gallery</h4>
+        </div>
+        <div class="r1">
+            <div class="image-container">
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0007.jpg" alt="Image 1">
+                </div>
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0008.jpg" alt="Image 2">
+                </div>
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0009.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        <div class="r2">
+            <div class="image-container">
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0010.jpg" alt="Image 4">
+                </div>
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0008.jpg" alt="Image 5">
+                </div>
+                <div class="image-box">
+                    <img class="image" src="C:\Users\DELL\Pictures\Desktop\web 2 self\IMG-20230825-WA0009.jpg"alt="Image 6">
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="box2">
+    <div class="bt">
+    <h4>DheerajKumar </h4>
+</div>
+<div id="tt">
+    "At our cutting-edge training center, we embark on a journey through the digital landscape, guided by expert mentors who illuminate the intricate pathways of computer technology."
+</div>
+</div>
+<div class="box3">
+    <div class="bt">
+    <h4>Follow</h4>
+</div>
+</br>
+<a id="anch" href="https://www.instagram.com/alwert_joseph/">Follow us on instagram</a>
+</br></br></br></br></br>
+<a id="anch" href="https://www.youtube.com/@alwertjoseph">Follow us on youtube</a>
+</div>
+</div>
+<div class="bt">
+<h4>Copyright &copy 2023-All rights reserved</h4>
+<h5>Prepared by alwert joseph</h5>
+</div>
+</div>
+</center>
+</body>
+</html>
